@@ -1,4 +1,4 @@
-# Gnomon Expenses
+# Expense Parser
 
 Automated expense tracking for Swiss GmbH -- PDF extraction, KMU categorization, MWST reporting.
 
