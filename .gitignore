@@ -1,0 +1,69 @@
+# =============================================================
+# SENSITIVE DATA — never commit financial documents or ledgers
+# =============================================================
+
+# PDF receipts and invoices (contain personal financial data)
+*.pdf
+
+# Monthly folders containing filed receipts
+26-*/
+27-*/
+28-*/
+29-*/
+30-*/
+
+# Ledger data (contains expense records with personal info)
+data/ledger.json
+data/ledger.csv
+data/*.json
+data/*.csv
+
+# Context files (may contain financial details)
+Context/
+
+# Exported CSVs
+expenses.csv
+
+# =============================================================
+# Standard Python / dev ignores
+# =============================================================
+
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables (may contain API keys)
+.env
+.env.*
+
+# Claude Code local settings (may contain permissions/paths)
+.claude/settings.local.json
+
+# Test / coverage
+.pytest_cache/
+htmlcov/
+.coverage
